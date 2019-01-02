@@ -1,5 +1,5 @@
 function GetRTime() {
-    var EndTime = new Date('2019/05/01 09:00:00'); //截止时间
+    var EndTime = new Date('2019/04/26 09:00:00'); //截止时间
     var NowTime = new Date();
     var t = EndTime.getTime() - NowTime.getTime();
     /*var d=Math.floor(t/1000/60/60/24);
